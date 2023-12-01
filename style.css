@@ -11,9 +11,8 @@ body {
     height: 481px; 
     left: 0px; 
     top: 0px; 
-    position: absolute; 
-    background: linear-gradient(0deg, #0000008f 0%, #0000008f 100%);
-    background-image: url('/img/2001-space-odyssey2_1600\ 1.png');
+    position: absolute;
+    background-image:linear-gradient(to top ,#ff000000, #121212), linear-gradient(to bottom ,#ff000000, #121212) , url('/img/2001-space-odyssey2_1600\ 1.png');
 }
 
 .menu {
@@ -79,12 +78,12 @@ a .signup{
     justify-content: flex-start;
 }
 
-.content {
+.header {
     margin-top: 160px;
     margin-left: 163px;
 }
 
-.content span {
+.header span {
     font-family: Inter;
     color: white;
     font-size: 40px;
@@ -100,4 +99,32 @@ a .signup{
     border: none;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
+}
+
+.content p {
+    padding-left: 100px; 
+    margin-top: 500px; 
+    position: absolute; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+
+.content img {
+    width: 260px; 
+    height: 400px;
+}
+
+footer .container{
+    color: white;
+    position: absolute;
+    left: 0px;
+    padding: 19px;
+    margin-top: 2600px;
+    height: 30px;
+    width: 97%;
+    background: #2E3C58;
 }
