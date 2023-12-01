@@ -15,7 +15,8 @@ body {
     left: 0px; 
     top: 0px; 
     position: absolute;
-    background-image:linear-gradient(to top ,#ff000000, #121212), linear-gradient(to bottom ,#ff000000, #121212) , url('../img/2001-space-odyssey2_1600 1.png');
+    background-image: linear-gradient(to top ,#ff000000 50%, #121212), linear-gradient(to left ,#ff000000 20%, #121212), linear-gradient(to right ,#ff000000 60%, #121212), url('../img/2001-space-odyssey2_1600 1.png');
+    z-index: -1;
 }
 
 .menu {
@@ -41,6 +42,10 @@ nav .movies {
 
 nav .news {
     margin-left: 377px; 
+}
+
+header {
+    margin-top: 20px;
 }
 
 header .logo {
@@ -81,12 +86,12 @@ a .signup{
     justify-content: flex-start;
 }
 
-.header {
+.banner .content {
     margin-top: 160px;
     margin-left: 163px;
 }
 
-.header span {
+.banner .content span {
     font-family: Inter;
     color: white;
     font-size: 40px;
@@ -105,18 +110,34 @@ a .signup{
     cursor: pointer;
 }
 
-.content p {
+.main p {
     padding-left: 100px; 
     margin-top: 500px; 
-    position: absolute; 
     color: white; 
     font-size: 32px; 
     font-family: Inter; 
-    font-weight: 600; 
-    word-wrap: break-word
+    font-weight: 600;
 }
 
-.content img {
+.main img {
     width: 260px; 
     height: 400px;
+}
+
+.row1 {
+    display: -moz-grid-line;
+    margin-left: 113px; 
+    margin-top: 10px;
+}
+
+.row2 {
+    display: -moz-grid-line;
+    margin-left: 65px; 
+    margin-top: 50px;
+}
+
+.row3 {
+    display: -moz-grid-line;
+    margin-left: 65px; 
+    margin-top: 50px;
 }
