@@ -120,14 +120,3 @@ a .signup{
     width: 260px; 
     height: 400px;
 }
-
-footer .container{
-    color: white;
-    position: absolute;
-    left: 0px;
-    padding: 19px;
-    margin-top: 2600px;
-    height: 30px;
-    width: 97%;
-    background: #2E3C58;
-}
