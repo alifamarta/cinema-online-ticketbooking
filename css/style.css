@@ -12,7 +12,7 @@ body {
     left: 0px; 
     top: 0px; 
     position: absolute;
-    background-image:linear-gradient(to top ,#ff000000, #121212), linear-gradient(to bottom ,#ff000000, #121212) , url('/img/2001-space-odyssey2_1600\ 1.png');
+    background-image:linear-gradient(to top ,#ff000000, #121212), linear-gradient(to bottom ,#ff000000, #121212) , url('../img/2001-space-odyssey2_1600 1.png');
 }
 
 .menu {
@@ -41,7 +41,7 @@ nav .news {
 }
 
 header .logo {
-    margin-left: 640px;
+    margin-left: 645px;
     position: absolute;
 }
 
