@@ -54,15 +54,14 @@ header .logo {
 }
 
 .button a {
-    display: flex;
-    justify-content: flex-end;
+    display: inline-block;
+    text-align: right;
 }
 
 a .login,
 a .signup{
     width: 72px; 
     height: 29px; 
-    position: absolute; 
     background: #00E054; 
     border: none;
     border-radius: 5px;
@@ -74,17 +73,9 @@ a .signup{
 }
 
 .login {
-    margin-right: 10px;
+    margin-left: 1340px;
 }
 
-.signup {
-    margin-right: 100px;
-}
-
-.banner {
-    display: flex;
-    justify-content: flex-start;
-}
 
 .banner .content {
     margin-top: 160px;
@@ -125,7 +116,7 @@ a .signup{
     cursor: pointer;
 }
 
-.row1 {
+.row1, .row2, .row3 {
     display: -moz-grid-line;
     margin-left: 113px; 
     margin-top: 10px;
@@ -133,22 +124,30 @@ a .signup{
 }
 
 .row2 {
-    display: -moz-grid-line;
     margin-left: 65px; 
     margin-top: 50px;
-    cursor: pointer;
 }
 
 .row3 {
-    display: -moz-grid-line;
     margin-left: 65px; 
     margin-top: 50px;
-    cursor: pointer;
 }
 
 .row1 img:hover,
 .row2 img:hover,
 .row3 img:hover {
     border-radius: 10px;
-    border: solid 5px #00E054;
+    border: solid 1px #00E054;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    background: #2e3b53;
+}
+
+footer img {
+    margin-top: 50px;
+    margin-left: 40px;
 }
