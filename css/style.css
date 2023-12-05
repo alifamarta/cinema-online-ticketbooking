@@ -122,22 +122,33 @@ a .signup{
 .main img {
     width: 260px; 
     height: 400px;
+    cursor: pointer;
 }
 
 .row1 {
     display: -moz-grid-line;
     margin-left: 113px; 
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .row2 {
     display: -moz-grid-line;
     margin-left: 65px; 
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .row3 {
     display: -moz-grid-line;
     margin-left: 65px; 
     margin-top: 50px;
+    cursor: pointer;
+}
+
+.row1 img:hover,
+.row2 img:hover,
+.row3 img:hover {
+    border-radius: 10px;
+    border: solid 5px #00E054;
 }
