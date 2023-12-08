@@ -170,3 +170,35 @@ footer a {
     text-decoration: none;
     cursor: default;
 }
+
+.lg-content {
+    color: white;
+    float: inline-end;
+    margin-right: 300px;
+}
+
+#name,
+#password {
+    background: transparent;
+    padding: 15px;
+    width: 380px;
+    border: white solid 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+#name:focus,
+#password:focus {
+    outline: none;
+    border: #00E054 solid 1px;
+}
+
+.btn-login {
+    margin-top: 35px;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    background: #00E054;
+    cursor: pointer;
+}
