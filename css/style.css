@@ -189,13 +189,14 @@ footer a {
     float: inline-end;
     margin-right: 200px;
     margin-top: 100px;
+    font-size: larger;
 }
 
 #name,
 #password {
     background: transparent;
     padding: 15px;
-    width: 380px;
+    width: 400px;
     border: white solid 2px;
     border-radius: 10px;
     margin-top: 10px;
@@ -208,6 +209,10 @@ footer a {
     border: #00E054 solid 1px;
 }
 
+::-ms-reveal {
+    filter: invert(100%);
+}
+
 .btn-login {
     margin-top: 35px;
     width: 100%;
@@ -215,4 +220,6 @@ footer a {
     color: white;
     background: #00E054;
     cursor: pointer;
+    font-size: medium;
+    font-family: Inter;
 }
