@@ -171,10 +171,24 @@ footer a {
     cursor: default;
 }
 
+.banner-login {
+    float: left;
+    background-image: url('../img/Nuovo_Cinema_Paradiso.jpg');
+    width: 600px;
+    height: 730px;
+}
+
+.lg-logo {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 600px;
+}
+
 .lg-content {
     color: white;
     float: inline-end;
-    margin-right: 300px;
+    margin-right: 200px;
+    margin-top: 100px;
 }
 
 #name,
