@@ -5,17 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <script src="src/slide.js"></script>
     <title>CineSeats</title>
 </head>
 
 <body>
     <div class="container">
         <div class="banner">
-            <main class="content">
-                <span style="font-weight: 800; font-size: 42px;">2001: A Space<br />Odyssey (Remastered)<br></span>
-                <span style="font-size: 32px;">Sci-Fi <br></span>
-                <a href="book.html"><button type="button" class="book">Book Now</button></a>
-            </main>
+            <div class="slides active fade">
+                <img src="img/2001-space-odyssey2_1600 1.png" style="width: 100%; filter: brightness(50%);">
+                <main class="content">
+                    <span style="font-weight: 800; font-size: 42px;">2001: A Space<br />Odyssey (Remastered)<br></span>
+                    <span style="font-size: 32px;">Sci-Fi <br></span>
+                    <a href="book.html"><button type="button" class="book">Book Now</button></a>
+                </main>
+            </div>
+            <div class="slides fade">
+                <img src="img/Fallen_Angels.jpg" style="width: 100%;">
+                <main class="content">
+                    <span style="font-weight: 800; font-size: 42px;">Fallen Angels <br></span>
+                    <span style="font-size: 32px;">Drama <br></span>
+                    <a href="book.html"><button type="button" class="book">Book Now</button></a>
+                </main>
+            </div>
+            <div class="slides fade">
+                <img src="img/BR1982.png" style="width: 100%;">
+                <main class="content">
+                    <span style="font-weight: 800; font-size: 42px;">Blade Runner<br></span>
+                    <span style="font-size: 32px;">Sci-Fi, Mystery & Thriller <br></span>
+                    <a href="book.html"><button type="button" class="book">Book Now</button></a>
+                </main>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <header>
             <nav class="menu">
