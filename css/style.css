@@ -3,10 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
 /* Home CSS */
-
 body {
     font-family: 'Istok Web';
     background: #232D3F;
+}
+
+.container {
+    width: 100%;
 }
 
 .banner {
@@ -171,11 +174,24 @@ footer a {
     cursor: default;
 }
 
+/* button hover */
+
+.login:hover, 
+.signup:hover,
+.book:hover,
+.btn-login:hover,
+.btn-signup:hover {
+    background: #00b244;
+}
+
+/* Login Page CSS */
 .banner-login {
     float: left;
     background-image: url('../img/Nuovo_Cinema_Paradiso.jpg');
     width: 900px;
     height: 730px;
+    left: 0px;
+    top: 0px;
 }
 
 .lg-logo {
