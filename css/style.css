@@ -186,18 +186,13 @@ footer a {
 }
 
 /* Login & Sign up Page CSS */
-.banner-login img {
+.banner-login img, 
+.banner-signup img {
     float: left;
     width: 900px;
     height: 730px;
     left: 0px;
     top: 0px;
-}
-
-.banner-signup img {
-    float: left;
-    width: 900px;
-    height: 860px;
 }
 
 .lg-logo {
@@ -229,14 +224,8 @@ footer a {
     color: white;
 }
 
-#firstname, #lastname {
-    width: 180px;
-}
-
 #username:focus,
 #password:focus,
-#firstname:focus,
-#lastname:focus,
 #email:focus {
     outline: none;
     border: #00E054 solid 1px;
