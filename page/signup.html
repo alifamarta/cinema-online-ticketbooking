@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/src/main.js"></script>
     <title>CineSeats</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="banner-signup">
+            <img src="/img/cinema.jpg">
+        </div>
+
+        <div class="lg-content">
+            <button class="btn-back" onclick="getBack()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" fill="currentColor"
+                    class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1" />
+                </svg>
+                Go Back
+            </button>
+            <form action="" method="post">
+                <p style="font-size: 40px; margin-bottom: 1px;">Sign Up</p>
+                <p style="margin-top: 0px;">Please fill out this form<br></p>
+
+                <p>
+                    <label for="firstname">First Name </label><label for="lastname" style="margin-left: 121px;">Last Name <br></label>
+                    <input type="text" name="firstname" id="firstname" required>
+                    <input type="text" name="lastname" id="lastname" required>
+                </p>
+                <p>
+                    
+                </p>
+
+                <p>
+                    <label for="email">Email <br></label>
+                    <input type="text" name="email" id="email" required>
+                </p>
+
+                <p>
+                    <label for="name">Username <br></label>
+                    <input type="text" name="username" id="username" required />
+                </p>
+                <p>
+                    <label for="password">Password <br></label>
+                    <input type="password" name="password" id="password" required>
+                </p>
+                <input type="submit" value="Sign up" class="btn-form">
+            </form>
+            <br>
+        </div>
+    </div>
 </body>
+
 </html>
