@@ -27,11 +27,11 @@ app.post('/submit_form', (req, res) => {
     const password = req.body.password;
     const query = 'INSERT INTO User (email, username, password) VALUES (?, ?)';
     
-    db.query(query, [email, username, password], (err, result) => {
+    db.query(query, [email, username, password], (err, res) => {
         if (err) {
             res.send(err);
         } else {
-            res.send('Signup is accepted');
+            res.redirect('/success.html');
         }
     });
 });

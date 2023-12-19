@@ -4,6 +4,11 @@ const slides = document.getElementsByClassName("slides");
 
 showSlides();
 
+function currentSlide(index) {
+    slideIndex = index;
+    showSlides();
+}
+
 function plusSlides(step) {
     if (step < 0) {
         slideIndex -= 2;
@@ -28,5 +33,5 @@ function showSlides() {
     if (timeoutId) {
         clearTimeout(timeoutId);
     }
-    timeoutId = setTimeout(showSlides, 5000);
+    timeoutId = setTimeout(showSlides, 3000);
 }
